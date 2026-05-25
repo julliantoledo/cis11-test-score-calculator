@@ -1,0 +1,39 @@
+Final Project pseudocode
+
+START
+
+READ_SCORES 			//Read score1-score5
+For each score entered
+INPUT_VALIDATION		//Scores range from 0-100
+
+INITIALIZE_VALUES
+min = score1
+max = score1
+sum = score1
+
+For each remaining score	//Version 1 accepts exactly 5 test scores as required. 1<=i<=5
+    UPDATE_MAX			//Future enhancement: allow a variable number of scores.
+    UPDATE_MIN
+    ADD_TO_SUM
+
+CALCULATE_AVERAGE		//Average = sum/5. 
+
+FIND_LETTER_GRADE
+If average >= 90
+    grade = A
+Else if average >= 80
+    grade = B
+Else if average >= 70
+    grade = C
+Else if average >= 60
+    grade = D
+Else
+    grade = F
+
+
+Display min
+Display max
+Display average
+Display grade
+
+END
