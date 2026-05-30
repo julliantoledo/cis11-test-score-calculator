@@ -4,7 +4,7 @@ Team R7
 
 Members:
 - Jullian Toledo
-- Rishik Reddy
+- Rishik Reddy Kasarla
 - Brendyn Keaton
 
 Project Description:
